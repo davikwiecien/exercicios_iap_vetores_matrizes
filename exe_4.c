@@ -11,7 +11,7 @@ os nomes são iguais (não utilize funções definidas em bibliotecas).
 int main(void) {   
 
     char A[50], B[50];
-    bool flag = false; // Variável do tipo de dado lógico bool
+    bool flag = false; // Variável do tipo de dado lógico bool (arquivo de cabeçalho stdbool.h)
 
     printf("\nInforme o 1º nome: ");
     fgets(A, 50, stdin);
