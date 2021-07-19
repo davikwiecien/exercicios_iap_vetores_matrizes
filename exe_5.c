@@ -19,7 +19,7 @@ int main(void) {
 
     for (i = 0; frase[i] != '\0'; i++) {}
 
-    printf("\nTamanho da frase \"%s\": %d letras\n\n", frase, i);
+    printf("\nTamanho da frase \"%s\": %d\n\n", frase, i);
     
     return 0;
     
