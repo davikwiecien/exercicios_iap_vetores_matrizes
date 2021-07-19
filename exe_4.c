@@ -21,7 +21,7 @@ int main(void) {
     fgets(B, 50, stdin);
     strtok(B, "\n");
 
-    for (int i = 0; A[i] != '\0' || B[i] != '\0'; i++) // Enquanto o nome A ou o nome B não chegarem ao fim
+    for (int i = 0; A[i] != '\0' || B[i] != '\0'; i++) // Enquanto o nome A ou o nome B não chegar ao fim
 
         if (A[i] != B[i]) {
 
